@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "publishedAt": "2026-10-02T23:36:54.743Z",
+  "groups": [],
+  "conditions": [
+    {
+      "id": "ios_users",
+      "name": "iOS users",
+      "color": "#d7e9ff",
+      "match": "all",
+      "rules": [
+        {
+          "attribute": "platform",
+          "operator": "eq",
+          "value": "ios"
+        }
+      ]
+    },
+    {
+      "id": "ten_percent",
+      "name": "10% rollout",
+      "color": "#e8ddff",
+      "match": "all",
+      "rules": [
+        {
+          "attribute": "percentage",
+          "operator": "lt",
+          "value": 10
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "key": "force_update",
+      "type": "string",
+      "default": "0.1.99",
+      "description": "",
+      "groupId": null,
+      "overrides": []
+    },
+    {
+      "key": "google_in_review",
+      "type": "string",
+      "default": "0.2.4",
+      "description": "",
+      "groupId": null,
+      "overrides": []
+    },
+    {
+      "key": "apple_in_review",
+      "type": "string",
+      "default": "0.2.4",
+      "description": "",
+      "groupId": null,
+      "overrides": []
+    },
+    {
+      "key": "soft_update",
+      "type": "string",
+      "default": "0.2.5",
+      "description": "",
+      "groupId": null,
+      "overrides": []
+    }
+  ]
+}
