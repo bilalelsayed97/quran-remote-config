@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "version": 1,
-  "publishedAt": "2026-10-02T23:36:54.743Z",
+  "version": 2,
+  "publishedAt": "2026-10-02T23:38:31.505Z",
   "groups": [],
   "conditions": [
     {
-      "id": "ios_users",
-      "name": "iOS users",
-      "color": "#d7e9ff",
+      "id": "condition_c90cd873",
+      "name": "ios",
+      "color": "#bde7df",
       "match": "all",
       "rules": [
         {
@@ -18,15 +18,15 @@
       ]
     },
     {
-      "id": "ten_percent",
-      "name": "10% rollout",
-      "color": "#e8ddff",
+      "id": "condition_ea4b4b25",
+      "name": "android",
+      "color": "#bde7df",
       "match": "all",
       "rules": [
         {
-          "attribute": "percentage",
-          "operator": "lt",
-          "value": 10
+          "attribute": "platform",
+          "operator": "eq",
+          "value": "android"
         }
       ]
     }
