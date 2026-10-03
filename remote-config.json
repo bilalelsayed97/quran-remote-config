@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 9,
-  "publishedAt": "2026-10-03T03:40:49.241Z",
+  "version": 10,
+  "publishedAt": "2026-10-03T03:41:16.574Z",
   "groups": [],
   "conditions": [
     {
@@ -109,8 +109,8 @@
           "minVersion": ""
         },
         "radio": {
-          "hidden": false,
-          "maintenance": false,
+          "hidden": true,
+          "maintenance": true,
           "minVersion": ""
         },
         "live": {
