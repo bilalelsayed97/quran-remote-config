@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 3,
-  "publishedAt": "2026-10-03T00:08:49.442Z",
+  "version": 4,
+  "publishedAt": "2026-10-03T03:19:18.208Z",
   "groups": [],
   "conditions": [
     {
@@ -60,6 +60,105 @@
       "key": "softUpdate",
       "type": "string",
       "default": "0.2.5",
+      "description": "",
+      "groupId": null,
+      "overrides": []
+    },
+    {
+      "key": "featureGates",
+      "type": "json",
+      "default": {
+        "app": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "quranReader": {
+          "hidden": false,
+          "maintenance": true,
+          "minVersion": ""
+        },
+        "listen": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "settings": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "globalSearch": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "about": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "radio": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "live": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "quranPlayer": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "khatmah": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "hadith": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "athkar": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "insights": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "quotes": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "hijriCalendar": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "adhan": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "downloads": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        },
+        "homeWidgets": {
+          "hidden": false,
+          "maintenance": false,
+          "minVersion": ""
+        }
+      },
       "description": "",
       "groupId": null,
       "overrides": []
