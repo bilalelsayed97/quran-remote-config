@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 6,
-  "publishedAt": "2026-10-03T03:28:53.266Z",
+  "version": 7,
+  "publishedAt": "2026-10-03T03:32:12.492Z",
   "groups": [],
   "conditions": [
     {
@@ -43,18 +43,28 @@
     {
       "key": "googleInReview",
       "type": "string",
-      "default": "0.2.4",
+      "default": "0",
       "description": "",
       "groupId": null,
-      "overrides": []
+      "overrides": [
+        {
+          "conditionId": "condition_ea4b4b25",
+          "value": "0.2.4"
+        }
+      ]
     },
     {
       "key": "appleInReview",
       "type": "string",
-      "default": "0.2.4",
+      "default": "0",
       "description": "",
       "groupId": null,
-      "overrides": []
+      "overrides": [
+        {
+          "conditionId": "condition_c90cd873",
+          "value": "0.2.4"
+        }
+      ]
     },
     {
       "key": "softUpdate",
