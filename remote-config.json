@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 2,
-  "publishedAt": "2026-10-02T23:38:31.505Z",
+  "version": 3,
+  "publishedAt": "2026-10-03T00:08:49.442Z",
   "groups": [],
   "conditions": [
     {
@@ -33,7 +33,7 @@
   ],
   "parameters": [
     {
-      "key": "force_update",
+      "key": "forceUpdate",
       "type": "string",
       "default": "0.1.99",
       "description": "",
@@ -41,7 +41,7 @@
       "overrides": []
     },
     {
-      "key": "google_in_review",
+      "key": "googleInReview",
       "type": "string",
       "default": "0.2.4",
       "description": "",
@@ -49,7 +49,7 @@
       "overrides": []
     },
     {
-      "key": "apple_in_review",
+      "key": "appleInReview",
       "type": "string",
       "default": "0.2.4",
       "description": "",
@@ -57,7 +57,7 @@
       "overrides": []
     },
     {
-      "key": "soft_update",
+      "key": "softUpdate",
       "type": "string",
       "default": "0.2.5",
       "description": "",
