@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 11,
-  "publishedAt": "2026-10-03T03:48:34.183Z",
+  "version": 12,
+  "publishedAt": "2026-10-12T22:30:50.953Z",
   "groups": [],
   "conditions": [
     {
@@ -170,6 +170,14 @@
         }
       },
       "description": "",
+      "groupId": null,
+      "overrides": []
+    },
+    {
+      "key": "supportMail",
+      "type": "string",
+      "default": "bilalelsayedjr@gmail.com",
+      "description": "support email",
       "groupId": null,
       "overrides": []
     }
