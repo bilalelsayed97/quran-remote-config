@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 13,
-  "publishedAt": "2026-10-14T18:27:34.000Z",
+  "version": 14,
+  "publishedAt": "2026-10-14T20:22:18.000Z",
   "groups": [],
   "conditions": [
     {
@@ -185,7 +185,7 @@
       "key": "notificationSounds",
       "type": "json",
       "default": {
-        "version": 1,
+        "version": 2,
         "defaultSound": "default_tone",
         "categories": {
           "iqama": [
@@ -319,14 +319,16 @@
             "fasting_white_1_ru",
             "fasting_white_1_tr"
           ],
-          "fast_mon_thu": [
+          "fast_monday": [
             "mondayFasting_1_ar",
             "mondayFasting_1_en",
             "mondayFasting_1_fa",
             "mondayFasting_1_fr",
             "mondayFasting_1_id",
             "mondayFasting_1_ru",
-            "mondayFasting_1_tr",
+            "mondayFasting_1_tr"
+          ],
+          "fast_thursday": [
             "thursdayFasting_1_ar",
             "thursdayFasting_1_en",
             "thursdayFasting_1_fa",
