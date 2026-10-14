@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 12,
-  "publishedAt": "2026-10-12T22:30:50.953Z",
+  "version": 13,
+  "publishedAt": "2026-10-14T18:27:34.000Z",
   "groups": [],
   "conditions": [
     {
@@ -178,6 +178,188 @@
       "type": "string",
       "default": "bilalelsayedjr@gmail.com",
       "description": "support email",
+      "groupId": null,
+      "overrides": []
+    },
+    {
+      "key": "notificationSounds",
+      "type": "json",
+      "default": {
+        "version": 1,
+        "defaultSound": "default_tone",
+        "categories": {
+          "iqama": [
+            "iqama_clock3",
+            "ali_mola",
+            "hosary_1",
+            "hosary_2",
+            "madina_eqama",
+            "makka_eqama"
+          ],
+          "soon_fajr": [
+            "alsalah_khair_mn_alnowm",
+            "fagrsoon",
+            "fagrsoon_old"
+          ],
+          "soon_dhuhr": [
+            "before_zohr_1_ar",
+            "before_zohr_1_en",
+            "before_zohr_1_fa",
+            "before_zohr_1_fr",
+            "before_zohr_1_id",
+            "before_zohr_1_ru",
+            "before_zohr_1_tr",
+            "zohrsoon",
+            "zohrsoon_old"
+          ],
+          "soon_asr": [
+            "before_asr_1_ar",
+            "before_asr_1_en",
+            "before_asr_1_fa",
+            "before_asr_1_fr",
+            "before_asr_1_id",
+            "before_asr_1_ru",
+            "before_asr_1_tr",
+            "asrsoon",
+            "asrsoon_old"
+          ],
+          "soon_maghrib": [
+            "before_maghreb_1_ar",
+            "before_maghreb_1_en",
+            "before_maghreb_1_fa",
+            "before_maghreb_1_fr",
+            "before_maghreb_1_id",
+            "before_maghreb_1_ru",
+            "before_maghreb_1_tr",
+            "maghribsoon",
+            "maghribsoon_old"
+          ],
+          "soon_isha": [
+            "before_esha_1_ar",
+            "before_esha_1_en",
+            "before_esha_1_fa",
+            "before_esha_1_fr",
+            "before_esha_1_id",
+            "before_esha_1_ru",
+            "before_esha_1_tr",
+            "eshaasoon",
+            "eshaasoon_old"
+          ],
+          "soon_jumuah": [
+            "gom3asoon",
+            "gom3asoon_old"
+          ],
+          "sunrise": [
+            "bird1",
+            "bird2"
+          ],
+          "before_shurooq": [
+            "before_shorouq_1_ar",
+            "before_shorouq_1_en",
+            "before_shorouq_1_fa",
+            "before_shorouq_1_fr",
+            "before_shorouq_1_id",
+            "before_shorouq_1_ru",
+            "before_shorouq_1_tr"
+          ],
+          "duha": [
+            "doha_1_ar",
+            "doha_1_en",
+            "doha_1_fa",
+            "doha_1_fr",
+            "doha_1_id",
+            "doha_1_ru",
+            "doha_1_tr"
+          ],
+          "kahf": [
+            "quran_1_ar",
+            "quran_1_en",
+            "quran_1_fa",
+            "quran_1_fr",
+            "quran_1_id",
+            "quran_1_ru",
+            "quran_1_tr",
+            "kahf"
+          ],
+          "khatmah": [
+            "quran_1_ar",
+            "quran_1_en",
+            "quran_1_fa",
+            "quran_1_fr",
+            "quran_1_id",
+            "quran_1_ru",
+            "quran_1_tr"
+          ],
+          "last_third": [
+            "qyam_mashary"
+          ],
+          "salawat": [
+            "salahNaby_1_ar",
+            "salahNaby_1_en",
+            "salahNaby_1_fa",
+            "salahNaby_1_fr",
+            "salahNaby_1_id",
+            "salahNaby_1_ru",
+            "salahNaby_1_tr",
+            "salahNaby_m_1_ar",
+            "salahNaby_m_1_en",
+            "salahNaby_m_1_fa",
+            "salahNaby_m_1_fr",
+            "salahNaby_m_1_id",
+            "salahNaby_m_1_ru",
+            "salahNaby_m_1_tr",
+            "noti_nabi"
+          ],
+          "fast_white": [
+            "fasting_white_1_ar",
+            "fasting_white_1_en",
+            "fasting_white_1_fa",
+            "fasting_white_1_fr",
+            "fasting_white_1_id",
+            "fasting_white_1_ru",
+            "fasting_white_1_tr"
+          ],
+          "fast_mon_thu": [
+            "mondayFasting_1_ar",
+            "mondayFasting_1_en",
+            "mondayFasting_1_fa",
+            "mondayFasting_1_fr",
+            "mondayFasting_1_id",
+            "mondayFasting_1_ru",
+            "mondayFasting_1_tr",
+            "thursdayFasting_1_ar",
+            "thursdayFasting_1_en",
+            "thursdayFasting_1_fa",
+            "thursdayFasting_1_fr",
+            "thursdayFasting_1_id",
+            "thursdayFasting_1_ru",
+            "thursdayFasting_1_tr"
+          ],
+          "sleep": [
+            "sleeping",
+            "sleepingFull"
+          ],
+          "morning_athkar": [
+            "saba7_1_ar",
+            "saba7_1_en",
+            "saba7_1_fa",
+            "saba7_1_fr",
+            "saba7_1_id",
+            "saba7_1_ru",
+            "saba7_1_tr"
+          ],
+          "evening_athkar": [
+            "evenning_azkar_1_ar",
+            "evenning_azkar_1_en",
+            "evenning_azkar_1_fa",
+            "evenning_azkar_1_fr",
+            "evenning_azkar_1_id",
+            "evenning_azkar_1_ru",
+            "evenning_azkar_1_tr"
+          ]
+        }
+      },
+      "description": "Push reminder sound catalog: per category, the sound fileNames the picker lists, in order. Files and titles come from the adhan_sounds manifest. See docs/refactor/push_reminders/CONTRACT.md in the app repo.",
       "groupId": null,
       "overrides": []
     }
